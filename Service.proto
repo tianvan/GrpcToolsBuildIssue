@@ -1,0 +1,14 @@
+syntax = "proto3";
+package SomeServices;
+
+service SomeService{
+	rpc ShowMessage(RequestMessage) returns (ResponseMessage);
+}
+
+message RequestMessage{
+
+}
+
+message ResponseMessage{
+
+}

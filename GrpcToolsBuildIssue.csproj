@@ -87,13 +87,11 @@
       <Generator>ResXFileCodeGenerator</Generator>
       <LastGenOutput>Resources.Designer.cs</LastGenOutput>
     </EmbeddedResource>
-    <ProtoBuf Include="..\Service.proto">
-      <Link>Service.proto</Link>
-    </ProtoBuf>
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>
       <LastGenOutput>Settings.Designer.cs</LastGenOutput>
     </None>
+    <ProtoBuf Include="Service.proto" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
